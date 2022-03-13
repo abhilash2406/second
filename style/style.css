@@ -1,0 +1,73 @@
+body, html {
+    margin: 0;
+}
+
+body {
+    align-items: center;
+    background: url(https://media.istockphoto.com/photos/dramatic-sunset-view-highlighting-the-empire-state-building-picture-id178735930?k=20&m=178735930&s=612x612&w=0&h=QVBpiszkUAs-m6wTF8BuJ4Qgv5s54KIapbkBOeCoZH8=);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    
+
+}
+.container {
+    width: 360px;
+    height: 300px;
+    background-color: rgb(38, 13, 97);
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 3px rgb(100, 66, 221);
+    
+}
+.container h2 {
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+
+.container h3 {
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container input, .container button {
+    border: none;
+    border-radius: 3px;
+    display: block;
+    font-size: 12px;
+    padding: 7px 10px;
+    margin: auto;
+    width: 50%;
+    
+
+}
+.container input {
+    text-align: left;
+}
+
+.container button {
+    background-color: chocolate;
+    border: 1px;
+    color: #fff;
+    width: 30%;
+}
+ .container small {
+     font-size: 0.75em;
+     line-height: 10px;
+     opacity: 0.5;
+ }
+ .container a{
+     color: yellow;
+ }
